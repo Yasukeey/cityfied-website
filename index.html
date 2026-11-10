@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Cityfied Capital Ltd. Accessible micro-business loans for entrepreneurs. Your Friendly Partner in Business." />
+  <title>Cityfied Capital Ltd | Your Friendly Partner in Business</title>
+  <link rel="icon" type="image/png" href="assets/logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Top utility bar -->
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <a class="topbar-item" href="tel:+254752777400">
+        <svg viewBox="0 0 24 24" class="ic"><path d="M6.6 10.8a15.6 15.6 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.58 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1 11.4 11.4 0 0 0 .58 3.6 1 1 0 0 1-.25 1z"/></svg>
+        <span>0752 777 400</span>
+      </a>
+      <a class="topbar-item" href="mailto:cityfiedcapital@gmail.com">
+        <svg viewBox="0 0 24 24" class="ic"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5z"/></svg>
+        <span>cityfiedcapital@gmail.com</span>
+      </a>
+      <span class="topbar-item topbar-right">
+        <svg viewBox="0 0 24 24" class="ic"><path d="M12 2a8 8 0 0 0-8 8c0 5.4 7 11.5 7.3 11.8a1 1 0 0 0 1.4 0C13 21.5 20 15.4 20 10a8 8 0 0 0-8-8zm0 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/></svg>
+        <span>Spur Mall, 2nd Floor, Thika Super Highway</span>
+      </span>
+    </div>
+  </div>
+
+  <!-- Header / Nav -->
+  <header class="header" id="header">
+    <div class="container nav-inner">
+      <a href="#top" class="brand">
+        <img src="assets/logo.png" alt="Cityfied Capital Ltd logo" class="brand-logo" />
+      </a>
+      <nav class="nav" id="nav">
+        <a href="#loans" class="nav-link">Loans</a>
+        <a href="#about" class="nav-link">About Us</a>
+        <a href="#apply" class="nav-link">How to Apply</a>
+        <a href="#branches" class="nav-link">Branches</a>
+        <a href="#careers" class="nav-link">Careers</a>
+        <a href="#contact" class="nav-link">Contact</a>
+        <a href="#apply" class="btn btn-primary nav-cta">Apply for a Loan</a>
+      </nav>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">Short-term micro-business loans</p>
+          <h1>Growing Your Business,<br />One Step at a Time.</h1>
+          <p class="hero-sub">
+            We provide convenient and accessible micro-business loans to help entrepreneurs
+            grow their businesses: processed fast, repaid in small instalments,
+            and disbursed straight to your phone.
+          </p>
+          <div class="hero-actions">
+            <a href="#apply" class="btn btn-primary">Apply for a Loan</a>
+            <a href="https://wa.me/254752777400?text=Hello%20Cityfied%20Capital%2C%20I%27d%20like%20to%20enquire%20about%20a%20loan." target="_blank" rel="noopener" class="btn btn-whatsapp">
+              <svg viewBox="0 0 24 24" class="ic ic-wa"><path d="M17.5 14.4c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.96-.94 1.16-.17.2-.35.22-.65.07a8.2 8.2 0 0 1-2.4-1.48 9 9 0 0 1-1.66-2.07c-.17-.3-.02-.46.13-.61.14-.13.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.38-.02-.53-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.5 0 1.47 1.07 2.9 1.22 3.1.15.2 2.1 3.2 5.1 4.49.71.3 1.27.49 1.7.63.72.23 1.37.2 1.88.12.58-.09 1.76-.72 2-1.42.25-.7.25-1.3.18-1.42-.08-.13-.28-.2-.58-.35zM12.05 21.8h-.01a9.77 9.77 0 0 1-4.98-1.37l-.36-.21-3.7.97.99-3.61-.24-.37a9.77 9.77 0 0 1-1.5-5.22c0-5.4 4.4-9.8 9.82-9.8a9.75 9.75 0 0 1 6.93 2.88 9.75 9.75 0 0 1 2.87 6.94c0 5.4-4.4 9.8-9.8 9.8zm8.34-18.15A11.7 11.7 0 0 0 12.04 0C5.5 0 .16 5.34.16 11.9c0 2.1.55 4.14 1.59 5.95L.05 24l6.3-1.65a11.86 11.86 0 0 0 5.68 1.45c6.56 0 11.9-5.34 11.9-11.9 0-3.18-1.24-6.16-3.54-8.4z"/></svg>
+              <span>Chat on WhatsApp</span>
+            </a>
+          </div>
+          <ul class="hero-points">
+            <li>Loans processed within 24 hours</li>
+            <li>No group membership required</li>
+            <li>No account maintenance fees</li>
+          </ul>
+        </div>
+
+        <div class="hero-media">
+          <div class="slider" id="heroSlider">
+            <figure class="slide is-active">
+              <img src="assets/hero-1.jpg" alt="Kenyan tailor at work in her shop" />
+              <figcaption>Tailoring &amp; fashion businesses</figcaption>
+            </figure>
+            <figure class="slide">
+              <img src="assets/hero-2.jpg" alt="Welder fabricating metalwork in his workshop" />
+              <figcaption>Jua kali &amp; workshops</figcaption>
+            </figure>
+            <figure class="slide">
+              <img src="assets/hero-3.jpg" alt="Butcher at his counter serving customers" />
+              <figcaption>Retail &amp; food businesses</figcaption>
+            </figure>
+            <button class="slider-btn prev" id="slidePrev" aria-label="Previous image">
+              <svg viewBox="0 0 24 24"><path d="M15.4 5.4 8.8 12l6.6 6.6-1.4 1.4-8-8 8-8z"/></svg>
+            </button>
+            <button class="slider-btn next" id="slideNext" aria-label="Next image">
+              <svg viewBox="0 0 24 24"><path d="M8.6 5.4 15.2 12l-6.6 6.6 1.4 1.4 8-8-8-8z"/></svg>
+            </button>
+            <div class="slider-dots" id="sliderDots" role="tablist" aria-label="Hero images"></div>
+          </div>
+          <div class="hero-badge">
+            <strong>24 hrs</strong>
+            <span>loan processing, subject to appraisal</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trust strip -->
+    <section class="strip">
+      <div class="container strip-inner">
+        <div class="strip-item">
+          <svg viewBox="0 0 24 24" class="ic-lg"><path d="M13 2 4.5 13.5H11L9.5 22 19 10h-6.5z"/></svg>
+          <div><h3>Quick Processing</h3><p>Complete applications are appraised and processed within 24 hours.</p></div>
+        </div>
+        <div class="strip-item">
+          <svg viewBox="0 0 24 24" class="ic-lg"><path d="M12 12a4 4 0 1 0-4-4 4 4 0 0 0 4 4zm0 2c-3.3 0-8 1.7-8 5v3h16v-3c0-3.3-4.7-5-8-5z"/></svg>
+          <div><h3>Individual Lending</h3><p>You borrow on your own merit, with no borrowing group needed.</p></div>
+        </div>
+        <div class="strip-item">
+          <svg viewBox="0 0 24 24" class="ic-lg"><path d="M17 1H7a2 2 0 0 0-2 2v18a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm0 18H7V5h10zM12 21a1.2 1.2 0 1 0 0-2.4A1.2 1.2 0 0 0 12 21z"/></svg>
+          <div><h3>Direct to Your Phone</h3><p>Funds are disbursed to, and repaid from, your mobile phone.</p></div>
+        </div>
+        <div class="strip-item">
+          <svg viewBox="0 0 24 24" class="ic-lg"><path d="M12 2 4 5v6c0 5 3.4 9.7 8 11 4.6-1.3 8-6 8-11V5zm-1.2 14.2-3.5-3.5 1.4-1.4 2.1 2.1 4.6-4.6 1.4 1.4z"/></svg>
+          <div><h3>No Hidden Costs</h3><p>No account maintenance fees and clear, agreed lending terms.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Loans -->
+    <section class="section" id="loans">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">What we offer</p>
+          <h2>Short-Term Micro-Business Loans</h2>
+          <p class="section-sub">
+            Simple, practical financing built around how small businesses actually operate:
+            quick to apply for, easy to repay, and designed to keep your business moving.
+          </p>
+        </div>
+
+        <div class="loans-grid">
+          <div class="loans-features">
+            <div class="feature">
+              <svg viewBox="0 0 24 24" class="ic"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z"/></svg>
+              <div><h3>Quick, convenient application</h3><p>Apply at any branch, by phone, or on WhatsApp. No lengthy paperwork.</p></div>
+            </div>
+            <div class="feature">
+              <svg viewBox="0 0 24 24" class="ic"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z"/></svg>
+              <div><h3>Weekly or monthly instalments</h3><p>Repay in small, manageable instalments on a schedule that fits your cash flow.</p></div>
+            </div>
+            <div class="feature">
+              <svg viewBox="0 0 24 24" class="ic"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z"/></svg>
+              <div><h3>Individual lending</h3><p>You do not need to belong to a group to qualify for a loan.</p></div>
+            </div>
+            <div class="feature">
+              <svg viewBox="0 0 24 24" class="ic"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z"/></svg>
+              <div><h3>Funds straight to your phone</h3><p>Once approved, your loan is disbursed directly to your mobile phone.</p></div>
+            </div>
+            <div class="feature">
+              <svg viewBox="0 0 24 24" class="ic"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z"/></svg>
+              <div><h3>Repay from your phone</h3><p>Make repayments conveniently from your mobile phone. No queues.</p></div>
+            </div>
+            <div class="feature">
+              <svg viewBox="0 0 24 24" class="ic"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z"/></svg>
+              <div><h3>No account maintenance fees</h3><p>What we agree is what you pay. No surprise deductions.</p></div>
+            </div>
+          </div>
+
+          <!-- Repayment calculator -->
+          <aside class="calc card" aria-label="Loan repayment estimator">
+            <h3 class="calc-title" id="calcTitle">Estimate your weekly instalment</h3>
+            <p class="calc-note">Our most popular product repays in 4 weekly instalments. Adjust the sliders to see what yours could look like.</p>
+
+            <label class="calc-label" for="calcAmount">
+              Loan amount <output id="calcAmountOut">KES 20,000</output>
+            </label>
+            <input type="range" id="calcAmount" min="2000" max="50000" step="1000" value="20000" />
+
+            <div class="calc-freq" role="group" aria-label="Repayment frequency">
+              <button type="button" class="freq-btn is-active" id="freqWeekly" aria-pressed="true">Weekly</button>
+              <button type="button" class="freq-btn" id="freqMonthly" aria-pressed="false">Monthly</button>
+            </div>
+
+            <label class="calc-label" for="calcWeeks">
+              Repayment period <output id="calcPeriodOut">4 weeks</output>
+            </label>
+            <input type="range" id="calcWeeks" min="4" max="12" step="1" value="4" />
+
+            <div class="calc-rate-fixed">
+              <span>Interest rate</span>
+              <strong>15% upfront</strong>
+            </div>
+
+            <div class="calc-result">
+              <span id="calcInstalmentLabel">Estimated weekly instalment</span>
+              <strong id="calcWeekly">KES 5,750</strong>
+              <small id="calcTotal">Total repayable: KES 23,000</small>
+            </div>
+            <p class="calc-disclaimer">
+              This is an illustrative estimate only. Your actual interest rate and repayment
+              schedule are confirmed during appraisal and approval.
+            </p>
+            <a href="#apply" class="btn btn-primary btn-block">Start My Application</a>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- Who we serve -->
+    <section class="section section-alt" id="serve">
+      <div class="container split">
+        <div class="split-media">
+          <img src="assets/market.jpg" alt="Fresh produce stall at a local market" />
+        </div>
+        <div class="split-copy">
+          <p class="eyebrow">Who we serve</p>
+          <h2>Financing That Fits Real Life</h2>
+          <p>
+            Our clients are the traders, artisans, workers and families who keep
+            everyday Kenya moving. Whatever your source of income, we shape our
+            loans around how you actually earn, and how you can comfortably repay.
+          </p>
+          <div class="serve-list">
+            <div class="serve-item">
+              <h3>For your business</h3>
+              <p>Restock your shop, buy equipment, or expand your premises.</p>
+            </div>
+            <div class="serve-item">
+              <h3>For your hustle</h3>
+              <p>Tools for the workshop, a boda for the road, a stall for the market.</p>
+            </div>
+            <div class="serve-item">
+              <h3>For your family</h3>
+              <p>School fees, emergencies and the moments that can't wait.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container split split-reverse">
+        <div class="split-copy">
+          <p class="eyebrow">About Cityfied Capital</p>
+          <h2>A Financial Partner That Understands Small Business</h2>
+          <p>
+            Cityfied Capital Ltd is a microfinance institution providing accessible financial
+            solutions to micro and small business owners. Our focus is to empower entrepreneurs
+            through convenient, affordable and flexible short-term business financing that
+            supports business growth and financial stability.
+          </p>
+          <p>
+            We believe in building lasting relationships with our clients by offering reliable
+            financial services and maintaining a customer-centred approach in everything we do.
+          </p>
+          <div class="mv-grid">
+            <div class="mv-card">
+              <h3>Our Mission</h3>
+              <p>To empower micro and small businesses through accessible, convenient and responsible financial solutions.</p>
+            </div>
+            <div class="mv-card">
+              <h3>Our Vision</h3>
+              <p>To become a trusted financial partner for entrepreneurs and small businesses.</p>
+            </div>
+          </div>
+        </div>
+        <div class="split-media">
+          <img src="assets/about-illustration.svg" alt="Illustration of a small business owner serving a customer at a Cityfied shop" />
+          <div class="media-tag">
+            <span class="media-tag-line"></span>
+            <em>“Your Friendly Partner in Business.”</em>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How to apply -->
+    <section class="section section-alt" id="apply">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">How to apply</p>
+          <h2>From Application to Cash in Hand</h2>
+          <p class="section-sub">
+            A straightforward process designed around your schedule. Most clients
+            complete these stages within a single working day.
+          </p>
+        </div>
+
+        <ol class="process">
+          <li class="process-step">
+            <span class="process-icon">
+              <svg viewBox="0 0 24 24"><path d="M6.6 10.8a15.6 15.6 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.58 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1 11.4 11.4 0 0 0 .58 3.6 1 1 0 0 1-.25 1z"/></svg>
+            </span>
+            <h3>Reach out</h3>
+            <p>Call, WhatsApp, or walk into any of our branches and tell us what your business needs.</p>
+          </li>
+          <li class="process-step">
+            <span class="process-icon">
+              <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8zm0 2 4 4h-4zM8 13h8v2H8zm0 4h5v2H8z"/></svg>
+            </span>
+            <h3>Apply &amp; share documents</h3>
+            <p>Fill a short application and provide your National ID plus basic business records.</p>
+          </li>
+          <li class="process-step">
+            <span class="process-icon">
+              <svg viewBox="0 0 24 24"><path d="M21 21l-4.3-4.3a7.5 7.5 0 1 0-1.4 1.4zm-15.5-10a6 6 0 1 1 12 0 6 6 0 0 1-12 0z"/></svg>
+            </span>
+            <h3>Business appraisal</h3>
+            <p>Our team verifies your details and appraises your business, often the same day.</p>
+          </li>
+          <li class="process-step">
+            <span class="process-icon">
+              <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm-1.2 14.2-4-4 1.4-1.4 2.6 2.6 5.6-5.6 1.4 1.4z"/></svg>
+            </span>
+            <h3>Approval</h3>
+            <p>Your application goes through our approval process and you get a clear answer fast.</p>
+          </li>
+          <li class="process-step">
+            <span class="process-icon">
+              <svg viewBox="0 0 24 24"><path d="M17 1H7a2 2 0 0 0-2 2v18a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm0 18H7V5h10zM12 21a1.2 1.2 0 1 0 0-2.4A1.2 1.2 0 0 0 12 21z"/></svg>
+            </span>
+            <h3>Funds on your phone</h3>
+            <p>On approval, money is disbursed directly to your mobile phone. Done.</p>
+          </li>
+        </ol>
+
+        <div class="apply-cta">
+          <div>
+            <h3>What you'll need</h3>
+            <p>A valid National ID and basic records of your business. Our team will guide you through anything else required. No guesswork.</p>
+          </div>
+          <div class="apply-cta-actions">
+            <a href="#branches" class="btn btn-outline">Find a Branch</a>
+            <a href="https://wa.me/254752777400?text=Hello%20Cityfied%20Capital%2C%20I%27d%20like%20to%20apply%20for%20a%20loan." target="_blank" rel="noopener" class="btn btn-whatsapp">
+              <svg viewBox="0 0 24 24" class="ic ic-wa"><path d="M17.5 14.4c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.96-.94 1.16-.17.2-.35.22-.65.07a8.2 8.2 0 0 1-2.4-1.48 9 9 0 0 1-1.66-2.07c-.17-.3-.02-.46.13-.61.14-.13.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.38-.02-.53-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.5 0 1.47 1.07 2.9 1.22 3.1.15.2 2.1 3.2 5.1 4.49.71.3 1.27.49 1.7.63.72.23 1.37.2 1.88.12.58-.09 1.76-.72 2-1.42.25-.7.25-1.3.18-1.42-.08-.13-.28-.2-.58-.35zM12.05 21.8h-.01a9.77 9.77 0 0 1-4.98-1.37l-.36-.21-3.7.97.99-3.61-.24-.37a9.77 9.77 0 0 1-1.5-5.22c0-5.4 4.4-9.8 9.82-9.8a9.75 9.75 0 0 1 6.93 2.88 9.75 9.75 0 0 1 2.87 6.94c0 5.4-4.4 9.8-9.8 9.8zm8.34-18.15A11.7 11.7 0 0 0 12.04 0C5.5 0 .16 5.34.16 11.9c0 2.1.55 4.14 1.59 5.95L.05 24l6.3-1.65a11.86 11.86 0 0 0 5.68 1.45c6.56 0 11.9-5.34 11.9-11.9 0-3.18-1.24-6.16-3.54-8.4z"/></svg>
+              <span>Apply via WhatsApp</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Branches -->
+    <section class="section" id="branches">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Our branch network</p>
+          <h2>Somewhere Near You</h2>
+          <p class="section-sub">
+            Visit any of our branches, or tap a number to call directly. Not near
+            one? Our team is still only a phone call or WhatsApp message away.
+            You can start your application from anywhere.
+          </p>
+        </div>
+
+        <div class="branches-grid">
+          <div class="branch card">
+            <svg viewBox="0 0 24 24" class="branch-pin"><path d="M12 2a8 8 0 0 0-8 8c0 5.4 7 11.5 7.3 11.8a1 1 0 0 0 1.4 0C13 21.5 20 15.4 20 10a8 8 0 0 0-8-8zm0 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/></svg>
+            <div class="branch-body">
+              <h3>CBD / Kasarani</h3>
+              <p class="branch-area">Nairobi CBD &amp; Kasarani area</p>
+              <a class="branch-tel" href="tel:+254782777400">0782 777 400</a>
+              <div class="branch-actions">
+                <a class="branch-btn" href="tel:+254782777400">
+                  <svg viewBox="0 0 24 24"><path d="M6.6 10.8a15.6 15.6 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.58 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1 11.4 11.4 0 0 0 .58 3.6 1 1 0 0 1-.25 1z"/></svg>
+                  <span>Call</span>
+                </a>
+                <a class="branch-wa" href="https://wa.me/254782777400" target="_blank" rel="noopener" aria-label="WhatsApp the CBD / Kasarani branch">
+                  <svg viewBox="0 0 24 24"><path d="M17.5 14.4c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.96-.94 1.16-.17.2-.35.22-.65.07a8.2 8.2 0 0 1-2.4-1.48 9 9 0 0 1-1.66-2.07c-.17-.3-.02-.46.13-.61.14-.13.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.38-.02-.53-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.5 0 1.47 1.07 2.9 1.22 3.1.15.2 2.1 3.2 5.1 4.49.71.3 1.27.49 1.7.63.72.23 1.37.2 1.88.12.58-.09 1.76-.72 2-1.42.25-.7.25-1.3.18-1.42-.08-.13-.28-.2-.58-.35zM12.05 21.8h-.01a9.77 9.77 0 0 1-4.98-1.37l-.36-.21-3.7.97.99-3.61-.24-.37a9.77 9.77 0 0 1-1.5-5.22c0-5.4 4.4-9.8 9.82-9.8a9.75 9.75 0 0 1 6.93 2.88 9.75 9.75 0 0 1 2.87 6.94c0 5.4-4.4 9.8-9.8 9.8zm8.34-18.15A11.7 11.7 0 0 0 12.04 0C5.5 0 .16 5.34.16 11.9c0 2.1.55 4.14 1.59 5.95L.05 24l6.3-1.65a11.86 11.86 0 0 0 5.68 1.45c6.56 0 11.9-5.34 11.9-11.9 0-3.18-1.24-6.16-3.54-8.4z"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="branch card">
+            <svg viewBox="0 0 24 24" class="branch-pin"><path d="M12 2a8 8 0 0 0-8 8c0 5.4 7 11.5 7.3 11.8a1 1 0 0 0 1.4 0C13 21.5 20 15.4 20 10a8 8 0 0 0-8-8zm0 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/></svg>
+            <div class="branch-body">
+              <h3>Roysambu / Githurai</h3>
+              <p class="branch-area">Along Thika Road</p>
+              <a class="branch-tel" href="tel:+254738777400">0738 777 400</a>
+              <div class="branch-actions">
+                <a class="branch-btn" href="tel:+254738777400">
+                  <svg viewBox="0 0 24 24"><path d="M6.6 10.8a15.6 15.6 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.58 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1 11.4 11.4 0 0 0 .58 3.6 1 1 0 0 1-.25 1z"/></svg>
+                  <span>Call</span>
+                </a>
+                <a class="branch-wa" href="https://wa.me/254738777400" target="_blank" rel="noopener" aria-label="WhatsApp the Roysambu / Githurai branch">
+                  <svg viewBox="0 0 24 24"><path d="M17.5 14.4c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.96-.94 1.16-.17.2-.35.22-.65.07a8.2 8.2 0 0 1-2.4-1.48 9 9 0 0 1-1.66-2.07c-.17-.3-.02-.46.13-.61.14-.13.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.38-.02-.53-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.5 0 1.47 1.07 2.9 1.22 3.1.15.2 2.1 3.2 5.1 4.49.71.3 1.27.49 1.7.63.72.23 1.37.2 1.88.12.58-.09 1.76-.72 2-1.42.25-.7.25-1.3.18-1.42-.08-.13-.28-.2-.58-.35zM12.05 21.8h-.01a9.77 9.77 0 0 1-4.98-1.37l-.36-.21-3.7.97.99-3.61-.24-.37a9.77 9.77 0 0 1-1.5-5.22c0-5.4 4.4-9.8 9.82-9.8a9.75 9.75 0 0 1 6.93 2.88 9.75 9.75 0 0 1 2.87 6.94c0 5.4-4.4 9.8-9.8 9.8zm8.34-18.15A11.7 11.7 0 0 0 12.04 0C5.5 0 .16 5.34.16 11.9c0 2.1.55 4.14 1.59 5.95L.05 24l6.3-1.65a11.86 11.86 0 0 0 5.68 1.45c6.56 0 11.9-5.34 11.9-11.9 0-3.18-1.24-6.16-3.54-8.4z"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="branch card">
+            <svg viewBox="0 0 24 24" class="branch-pin"><path d="M12 2a8 8 0 0 0-8 8c0 5.4 7 11.5 7.3 11.8a1 1 0 0 0 1.4 0C13 21.5 20 15.4 20 10a8 8 0 0 0-8-8zm0 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/></svg>
+            <div class="branch-body">
+              <h3>Ruiru / Juja</h3>
+              <p class="branch-area">Ruiru &amp; Juja area</p>
+              <a class="branch-tel" href="tel:+254739777400">0739 777 400</a>
+              <div class="branch-actions">
+                <a class="branch-btn" href="tel:+254739777400">
+                  <svg viewBox="0 0 24 24"><path d="M6.6 10.8a15.6 15.6 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.58 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1 11.4 11.4 0 0 0 .58 3.6 1 1 0 0 1-.25 1z"/></svg>
+                  <span>Call</span>
+                </a>
+                <a class="branch-wa" href="https://wa.me/254739777400" target="_blank" rel="noopener" aria-label="WhatsApp the Ruiru / Juja branch">
+                  <svg viewBox="0 0 24 24"><path d="M17.5 14.4c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.96-.94 1.16-.17.2-.35.22-.65.07a8.2 8.2 0 0 1-2.4-1.48 9 9 0 0 1-1.66-2.07c-.17-.3-.02-.46.13-.61.14-.13.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.38-.02-.53-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.5 0 1.47 1.07 2.9 1.22 3.1.15.2 2.1 3.2 5.1 4.49.71.3 1.27.49 1.7.63.72.23 1.37.2 1.88.12.58-.09 1.76-.72 2-1.42.25-.7.25-1.3.18-1.42-.08-.13-.28-.2-.58-.35zM12.05 21.8h-.01a9.77 9.77 0 0 1-4.98-1.37l-.36-.21-3.7.97.99-3.61-.24-.37a9.77 9.77 0 0 1-1.5-5.22c0-5.4 4.4-9.8 9.82-9.8a9.75 9.75 0 0 1 6.93 2.88 9.75 9.75 0 0 1 2.87 6.94c0 5.4-4.4 9.8-9.8 9.8zm8.34-18.15A11.7 11.7 0 0 0 12.04 0C5.5 0 .16 5.34.16 11.9c0 2.1.55 4.14 1.59 5.95L.05 24l6.3-1.65a11.86 11.86 0 0 0 5.68 1.45c6.56 0 11.9-5.34 11.9-11.9 0-3.18-1.24-6.16-3.54-8.4z"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="branch card">
+            <svg viewBox="0 0 24 24" class="branch-pin"><path d="M12 2a8 8 0 0 0-8 8c0 5.4 7 11.5 7.3 11.8a1 1 0 0 0 1.4 0C13 21.5 20 15.4 20 10a8 8 0 0 0-8-8zm0 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/></svg>
+            <div class="branch-body">
+              <h3>Thika</h3>
+              <p class="branch-area">Thika town &amp; surroundings</p>
+              <a class="branch-tel" href="tel:+254784777400">0784 777 400</a>
+              <div class="branch-actions">
+                <a class="branch-btn" href="tel:+254784777400">
+                  <svg viewBox="0 0 24 24"><path d="M6.6 10.8a15.6 15.6 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.58 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1 11.4 11.4 0 0 0 .58 3.6 1 1 0 0 1-.25 1z"/></svg>
+                  <span>Call</span>
+                </a>
+                <a class="branch-wa" href="https://wa.me/254784777400" target="_blank" rel="noopener" aria-label="WhatsApp the Thika branch">
+                  <svg viewBox="0 0 24 24"><path d="M17.5 14.4c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.96-.94 1.16-.17.2-.35.22-.65.07a8.2 8.2 0 0 1-2.4-1.48 9 9 0 0 1-1.66-2.07c-.17-.3-.02-.46.13-.61.14-.13.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.38-.02-.53-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.5 0 1.47 1.07 2.9 1.22 3.1.15.2 2.1 3.2 5.1 4.49.71.3 1.27.49 1.7.63.72.23 1.37.2 1.88.12.58-.09 1.76-.72 2-1.42.25-.7.25-1.3.18-1.42-.08-.13-.28-.2-.58-.35zM12.05 21.8h-.01a9.77 9.77 0 0 1-4.98-1.37l-.36-.21-3.7.97.99-3.61-.24-.37a9.77 9.77 0 0 1-1.5-5.22c0-5.4 4.4-9.8 9.82-9.8a9.75 9.75 0 0 1 6.93 2.88 9.75 9.75 0 0 1 2.87 6.94c0 5.4-4.4 9.8-9.8 9.8zm8.34-18.15A11.7 11.7 0 0 0 12.04 0C5.5 0 .16 5.34.16 11.9c0 2.1.55 4.14 1.59 5.95L.05 24l6.3-1.65a11.86 11.86 0 0 0 5.68 1.45c6.56 0 11.9-5.34 11.9-11.9 0-3.18-1.24-6.16-3.54-8.4z"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="branch card">
+            <svg viewBox="0 0 24 24" class="branch-pin"><path d="M12 2a8 8 0 0 0-8 8c0 5.4 7 11.5 7.3 11.8a1 1 0 0 0 1.4 0C13 21.5 20 15.4 20 10a8 8 0 0 0-8-8zm0 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/></svg>
+            <div class="branch-body">
+              <h3>Kiambu / Githunguri</h3>
+              <p class="branch-area">Kiambu County</p>
+              <a class="branch-tel" href="tel:+254788777400">0788 777 400</a>
+              <div class="branch-actions">
+                <a class="branch-btn" href="tel:+254788777400">
+                  <svg viewBox="0 0 24 24"><path d="M6.6 10.8a15.6 15.6 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.58 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1 11.4 11.4 0 0 0 .58 3.6 1 1 0 0 1-.25 1z"/></svg>
+                  <span>Call</span>
+                </a>
+                <a class="branch-wa" href="https://wa.me/254788777400" target="_blank" rel="noopener" aria-label="WhatsApp the Kiambu / Githunguri branch">
+                  <svg viewBox="0 0 24 24"><path d="M17.5 14.4c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.96-.94 1.16-.17.2-.35.22-.65.07a8.2 8.2 0 0 1-2.4-1.48 9 9 0 0 1-1.66-2.07c-.17-.3-.02-.46.13-.61.14-.13.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.38-.02-.53-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.5 0 1.47 1.07 2.9 1.22 3.1.15.2 2.1 3.2 5.1 4.49.71.3 1.27.49 1.7.63.72.23 1.37.2 1.88.12.58-.09 1.76-.72 2-1.42.25-.7.25-1.3.18-1.42-.08-.13-.28-.2-.58-.35zM12.05 21.8h-.01a9.77 9.77 0 0 1-4.98-1.37l-.36-.21-3.7.97.99-3.61-.24-.37a9.77 9.77 0 0 1-1.5-5.22c0-5.4 4.4-9.8 9.82-9.8a9.75 9.75 0 0 1 6.93 2.88 9.75 9.75 0 0 1 2.87 6.94c0 5.4-4.4 9.8-9.8 9.8zm8.34-18.15A11.7 11.7 0 0 0 12.04 0C5.5 0 .16 5.34.16 11.9c0 2.1.55 4.14 1.59 5.95L.05 24l6.3-1.65a11.86 11.86 0 0 0 5.68 1.45c6.56 0 11.9-5.34 11.9-11.9 0-3.18-1.24-6.16-3.54-8.4z"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="branch card branch-hq">
+            <svg viewBox="0 0 24 24" class="branch-pin"><path d="M12 2 4 5v6c0 5 3.4 9.7 8 11 4.6-1.3 8-6 8-11V5z"/></svg>
+            <div class="branch-body">
+              <h3>Head Office</h3>
+              <p class="branch-area">Spur Mall, 2nd Floor, Thika Super Highway, Ruiru</p>
+              <span class="branch-tel">
+                <a href="tel:+254752777400">0752 777 400</a> / <a href="tel:+254792777400">0792 777 400</a>
+              </span>
+              <div class="branch-actions">
+                <a class="branch-btn" href="tel:+254752777400">
+                  <svg viewBox="0 0 24 24"><path d="M6.6 10.8a15.6 15.6 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.58 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1 11.4 11.4 0 0 0 .58 3.6 1 1 0 0 1-.25 1z"/></svg>
+                  <span>Call</span>
+                </a>
+                <a class="branch-wa" href="https://wa.me/254752777400" target="_blank" rel="noopener" aria-label="WhatsApp the head office">
+                  <svg viewBox="0 0 24 24"><path d="M17.5 14.4c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.96-.94 1.16-.17.2-.35.22-.65.07a8.2 8.2 0 0 1-2.4-1.48 9 9 0 0 1-1.66-2.07c-.17-.3-.02-.46.13-.61.14-.13.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.38-.02-.53-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.5 0 1.47 1.07 2.9 1.22 3.1.15.2 2.1 3.2 5.1 4.49.71.3 1.27.49 1.7.63.72.23 1.37.2 1.88.12.58-.09 1.76-.72 2-1.42.25-.7.25-1.3.18-1.42-.08-.13-.28-.2-.58-.35zM12.05 21.8h-.01a9.77 9.77 0 0 1-4.98-1.37l-.36-.21-3.7.97.99-3.61-.24-.37a9.77 9.77 0 0 1-1.5-5.22c0-5.4 4.4-9.8 9.82-9.8a9.75 9.75 0 0 1 6.93 2.88 9.75 9.75 0 0 1 2.87 6.94c0 5.4-4.4 9.8-9.8 9.8zm8.34-18.15A11.7 11.7 0 0 0 12.04 0C5.5 0 .16 5.34.16 11.9c0 2.1.55 4.14 1.59 5.95L.05 24l6.3-1.65a11.86 11.86 0 0 0 5.68 1.45c6.56 0 11.9-5.34 11.9-11.9 0-3.18-1.24-6.16-3.54-8.4z"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Careers -->
+    <section class="section section-dark" id="careers">
+      <div class="container careers-inner">
+        <div class="careers-copy">
+          <p class="eyebrow eyebrow-light">Careers</p>
+          <h2>Grow Your Career With Us</h2>
+          <p>
+            We're a growing team that cares about the businesses we serve. If you're
+            interested in joining Cityfied Capital in lending, customer service,
+            marketing or operations, we'd like to hear from you.
+          </p>
+          <div class="careers-apply">
+            <span class="careers-apply-label">Applications and enquiries:</span>
+            <span class="careers-mail-text">cityfiedoffice@gmail.com</span>
+          </div>
+          <a class="btn btn-light careers-cta" href="mailto:cityfiedoffice@gmail.com?subject=Career%20Enquiry%20%E2%80%94%20Cityfied%20Capital">Send Your Application</a>
+        </div>
+        <div class="careers-points">
+          <h3>Why work here</h3>
+          <ul>
+            <li>Meaningful work supporting local entrepreneurs</li>
+            <li>A close-knit, customer-centred team</li>
+            <li>Room to grow as our branch network grows</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section" id="faq">
+      <div class="container faq-container">
+        <div class="section-head">
+          <p class="eyebrow">Common questions</p>
+          <h2>Frequently Asked Questions</h2>
+        </div>
+        <div class="faq-list">
+          <details class="faq-item">
+            <summary>How long does it take to get a loan?<span class="faq-chev"></span></summary>
+            <p>We aim to process complete loan applications within 24 hours, subject to appraisal, verification and approval. The faster your documents are ready, the faster we can respond.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Do I need to belong to a borrowing group?<span class="faq-chev"></span></summary>
+            <p>No. Cityfied Capital lends to individuals. You qualify on your own merit and business, not through a group.</p>
+          </details>
+          <details class="faq-item">
+            <summary>How do I repay my loan?<span class="faq-chev"></span></summary>
+            <p>Repayments are made in small weekly or monthly instalments, whichever suits your cash flow, conveniently from your mobile phone. There are no account maintenance fees.</p>
+          </details>
+          <details class="faq-item">
+            <summary>How do I receive the money?<span class="faq-chev"></span></summary>
+            <p>Once your loan is approved, funds are disbursed directly to your mobile phone. No need to queue or open a new account.</p>
+          </details>
+          <details class="faq-item">
+            <summary>What documents do I need to apply?<span class="faq-chev"></span></summary>
+            <p>A valid National ID and basic records of your business. Our team will let you know if anything else is needed during appraisal.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Where are you located?<span class="faq-chev"></span></summary>
+            <p>Our head office is at Spur Mall, 2nd Floor, along Thika Super Highway, Ruiru. We also serve clients around CBD/Kasarani, Roysambu/Githurai, Ruiru/Juja, Thika and Kiambu/Githunguri. See the <a href="#branches">branch list</a> above.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA banner -->
+    <section class="cta-band">
+      <div class="container cta-inner">
+        <div>
+          <h2>Ready to take the next step?</h2>
+          <p>Talk to a real person about what your business needs. We'll walk you through it, no obligation.</p>
+        </div>
+        <div class="cta-actions">
+          <a href="tel:+254752777400" class="btn btn-light">Call 0752 777 400</a>
+          <a href="https://wa.me/254752777400?text=Hello%20Cityfied%20Capital%2C%20I%27d%20like%20to%20talk%20about%20a%20loan%20for%20my%20business." target="_blank" rel="noopener" class="btn btn-whatsapp">
+            <svg viewBox="0 0 24 24" class="ic ic-wa"><path d="M17.5 14.4c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.96-.94 1.16-.17.2-.35.22-.65.07a8.2 8.2 0 0 1-2.4-1.48 9 9 0 0 1-1.66-2.07c-.17-.3-.02-.46.13-.61.14-.13.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.38-.02-.53-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.5 0 1.47 1.07 2.9 1.22 3.1.15.2 2.1 3.2 5.1 4.49.71.3 1.27.49 1.7.63.72.23 1.37.2 1.88.12.58-.09 1.76-.72 2-1.42.25-.7.25-1.3.18-1.42-.08-.13-.28-.2-.58-.35zM12.05 21.8h-.01a9.77 9.77 0 0 1-4.98-1.37l-.36-.21-3.7.97.99-3.61-.24-.37a9.77 9.77 0 0 1-1.5-5.22c0-5.4 4.4-9.8 9.82-9.8a9.75 9.75 0 0 1 6.93 2.88 9.75 9.75 0 0 1 2.87 6.94c0 5.4-4.4 9.8-9.8 9.8zm8.34-18.15A11.7 11.7 0 0 0 12.04 0C5.5 0 .16 5.34.16 11.9c0 2.1.55 4.14 1.59 5.95L.05 24l6.3-1.65a11.86 11.86 0 0 0 5.68 1.45c6.56 0 11.9-5.34 11.9-11.9 0-3.18-1.24-6.16-3.54-8.4z"/></svg>
+            <span>Start a WhatsApp chat</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact + map -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Contact us</p>
+          <h2>Talk to Our Team</h2>
+          <p class="section-sub">Reach our head office directly, or visit us at Spur Mall on Thika Road.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-cards">
+            <div class="contact-card">
+              <svg viewBox="0 0 24 24" class="ic-lg"><path d="M12 2a8 8 0 0 0-8 8c0 5.4 7 11.5 7.3 11.8a1 1 0 0 0 1.4 0C13 21.5 20 15.4 20 10a8 8 0 0 0-8-8zm0 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/></svg>
+              <h3>Head Office</h3>
+              <p>Spur Mall, 2nd Floor<br />Thika Super Highway, Ruiru</p>
+            </div>
+            <div class="contact-card">
+              <svg viewBox="0 0 24 24" class="ic-lg"><path d="M6.6 10.8a15.6 15.6 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.58 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1 11.4 11.4 0 0 0 .58 3.6 1 1 0 0 1-.25 1z"/></svg>
+              <h3>Call Us</h3>
+              <p><a href="tel:+254752777400">0752 777 400</a><br /><a href="tel:+254792777400">0792 777 400</a></p>
+            </div>
+            <div class="contact-card">
+              <svg viewBox="0 0 24 24" class="ic-lg"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5z"/></svg>
+              <h3>General Enquiries</h3>
+              <p><a href="mailto:cityfiedcapital@gmail.com">cityfiedcapital@gmail.com</a></p>
+            </div>
+            <div class="contact-card">
+              <svg viewBox="0 0 24 24" class="ic-lg"><path d="M20 6h-4V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2H4a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2zm-10-2h4v2h-4zm10 15H4V8h16zM12 9a3 3 0 1 0 .001 6.001A3 3 0 0 0 12 9z"/></svg>
+              <h3>Careers &amp; Recruitment</h3>
+              <p><a href="mailto:cityfiedoffice@gmail.com">cityfiedoffice@gmail.com</a></p>
+            </div>
+          </div>
+
+          <div class="map-wrap">
+            <iframe
+              title="Cityfied Capital head office at Spur Mall, Thika Super Highway, Ruiru"
+              src="https://www.google.com/maps?q=Spur+Mall%2C+2nd+Floor%2C+Nairobi%2C+Kenya&z=16&output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              allowfullscreen></iframe>
+            <a class="map-link" href="https://www.google.com/maps?q=Spur+Mall%2C+2nd+Floor%2C+Nairobi%2C+Kenya" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" class="ic"><path d="M12 2a8 8 0 0 0-8 8c0 5.4 7 11.5 7.3 11.8a1 1 0 0 0 1.4 0C13 21.5 20 15.4 20 10a8 8 0 0 0-8-8zm0 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/></svg>
+              Open Spur Mall in Google Maps
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <img src="assets/logo.png" alt="Cityfied Capital Ltd logo" class="footer-logo" />
+        <p>Your Friendly Partner in Business.</p>
+        <p class="footer-legal">
+          All loans are subject to appraisal, verification, approval and applicable lending terms.
+        </p>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <a href="#loans">Our Loans</a>
+        <a href="#about">About Us</a>
+        <a href="#apply">How to Apply</a>
+        <a href="#branches">Branches</a>
+        <a href="#careers">Careers</a>
+        <a href="#faq">FAQs</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <a href="tel:+254752777400">0752 777 400</a>
+        <a href="tel:+254792777400">0792 777 400</a>
+        <a href="mailto:cityfiedcapital@gmail.com">cityfiedcapital@gmail.com</a>
+        <a href="mailto:cityfiedoffice@gmail.com">cityfiedoffice@gmail.com</a>
+      </div>
+      <div class="footer-col">
+        <h4>Head Office</h4>
+        <p>Spur Mall, 2nd Floor<br />Thika Super Highway, Ruiru<br />Kenya</p>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; <span id="year">2026</span> Cityfied Capital Ltd. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp button -->
+  <a class="wa-float" href="https://wa.me/254752777400?text=Hello%20Cityfied%20Capital%2C%20I%27d%20like%20to%20make%20an%20enquiry." target="_blank" rel="noopener" aria-label="Chat with Cityfied Capital on WhatsApp">
+    <svg viewBox="0 0 24 24"><path d="M17.5 14.4c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.96-.94 1.16-.17.2-.35.22-.65.07a8.2 8.2 0 0 1-2.4-1.48 9 9 0 0 1-1.66-2.07c-.17-.3-.02-.46.13-.61.14-.13.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.38-.02-.53-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.5 0 1.47 1.07 2.9 1.22 3.1.15.2 2.1 3.2 5.1 4.49.71.3 1.27.49 1.7.63.72.23 1.37.2 1.88.12.58-.09 1.76-.72 2-1.42.25-.7.25-1.3.18-1.42-.08-.13-.28-.2-.58-.35zM12.05 21.8h-.01a9.77 9.77 0 0 1-4.98-1.37l-.36-.21-3.7.97.99-3.61-.24-.37a9.77 9.77 0 0 1-1.5-5.22c0-5.4 4.4-9.8 9.82-9.8a9.75 9.75 0 0 1 6.93 2.88 9.75 9.75 0 0 1 2.87 6.94c0 5.4-4.4 9.8-9.8 9.8zm8.34-18.15A11.7 11.7 0 0 0 12.04 0C5.5 0 .16 5.34.16 11.9c0 2.1.55 4.14 1.59 5.95L.05 24l6.3-1.65a11.86 11.86 0 0 0 5.68 1.45c6.56 0 11.9-5.34 11.9-11.9 0-3.18-1.24-6.16-3.54-8.4z"/></svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
