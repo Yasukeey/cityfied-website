@@ -195,18 +195,6 @@ a.topbar-item:hover { color: #fff; }
   padding: 4.5rem 0 4rem;
 }
 
-.eyebrow {
-  display: inline-block;
-  font: 700 0.78rem/1 var(--font-body);
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: var(--blue-dark);
-  background: rgba(14,157,232,.1);
-  padding: 0.5rem 0.9rem;
-  border-radius: 999px;
-  margin-bottom: 1.2rem;
-}
-.eyebrow-light { color: #aee1fb; background: rgba(255,255,255,.1); }
 
 .hero-sub {
   margin: 1.4rem 0 1.8rem;
